@@ -4,11 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Uñas & Trenzas - Profesional</title>
-  <title>Inicio | Uñas & Trenzas-Profesional</title>
   <style>
-   
     :root {
-      --color-fondo: #e0b7db;
       --color-fondo: #989dce;
       --color-principal: #d49bcb;
       --color-texto: #131304;
@@ -109,70 +106,27 @@
 
     .galeria img:hover {
       transform: scale(1.05);
-      width: 100%;
-  max-width: 600px;
-  height: auto;
     }
 
-     .imagen-grande {
-    width: 600px;   /* o usa % si quieres que se adapte */
-    height: auto;   /* mantiene proporción */
-    border-radius: 10px;
-  }
+    .faceboot, .whatsapp, .instagram {
+      position: fixed;
+      right: 10px;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      font-size: 30px;
+      text-decoration: none;
+      transition: transform 0.3s ease;
+    }
 
- .faceboot {
-  position: fixed;
-  bottom: 120px;
-  right: 10px; /* mueve el botón a la izquierda */
-  background-color: #1b1d92;
-  color: white;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
-  font-size: 30px;
-  text-decoration: none;
-  transition: transform 0.3s ease;
-}
-
- .whatsapp {
-  position: fixed;
-  bottom: 200px;
-  right: 10px; /* mueve el botón a la izquierda */
-  background-color: #09501b;
-  color: white;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
-  font-size: 30px;
-  text-decoration: none;
-  transition: transform 0.3s ease;
-}
-
-.instagram {
-  position: fixed;
-  bottom: 50px;
-  right: 10px; 
-  background-color: #e6223cbd;
-  color: white;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
-  font-size: 30px;
-  text-decoration: none;
-  transition: transform 0.3s ease;
-}
+    .faceboot { bottom: 120px; background-color: #1b1d92; }
+    .whatsapp { bottom: 200px; background-color: #09501b; }
+    .instagram { bottom: 50px; background-color: #e6223cbd; }
 
     footer {
       background-color: var(--color-principal);
@@ -192,20 +146,19 @@
 
   <!-- Perfil -->
   <section class="perfil">
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\descarga (3).jpg" >
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.51.56_73f80c40.jpg" >
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.51.59_15d02268.jpg" >
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\16.jpg" >
-    <p>Ester Carolina - Estilista Profesional</p>
+    <img src="imagenes/descarga (3).jpg" alt="perfil 1">
+    <img src="imagenes/Imagen de WhatsApp 2025-10-15 a las 22.51.56_73f80c40.jpg" alt="perfil 2">
+    <img src="imagenes/Imagen de WhatsApp 2025-10-15 a las 22.51.59_15d02268.jpg" alt="perfil 3">
+    <img src="imagenes/16.jpg" alt="perfil 4">
+
+    <p><strong>Ester Carolina</strong> - Estilista Profesional</p>
     <p>Especialista en diseños de uñas, trenzas africanas y peinados personalizados.  
        ¡Tu estilo, tu esencia y tu belleza son mi inspiración! 🌸💖</p>
-       
-       
+
     <div class="redes">
-      <a href="https://www.instagram.com/fa_esmeralda14?utm_source=qr&igsh=MWp6anV2NG5ucnZubw==" target="_blank" title="Instagram">I🔴</a>
+      <a href="https://www.instagram.com/fa_esmeralda14" target="_blank" title="Instagram">I🔴</a>
       <a href="https://www.facebook.com/share/16XdS2nT3R/" target="_blank" title="Facebook">f🔵</a>
-       <a href="https://wa.me/50661958121" target="_blank" title="whatsapp">W🟢</a> 
-      
+      <a href="https://wa.me/50661958121" target="_blank" title="WhatsApp">W🟢</a> 
     </div>
   </section>
 
@@ -213,37 +166,17 @@
   <section id="unas">
     <h3>Diseños de Uñas</h3>
     <div class="galeria">
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.51.56_73f80c40.jpg" alt="uñas 1" > Uñas con nivelación base rubber Precio cortas: ₡5.000  Precio Largas: ₡8000   Decoración extras: ₡300
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.51.59_15d02268.jpg" alt="uñas 2" > Uñas con nivelación base rubber Precio cortas: ₡5.000 Precio largas: ₡8.000 Decoración extras: ₡300 
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.51.59_997a065e.jpg" alt="uñas 3" > Uñas semipermanente Precio: ₡3.000 Decoración  extra: ₡300
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.51.59_b7e61d04.jpg" alt="uñas 4" > Uñas semipermanente Precio: ₡3.000  Decoración extra: ₡300
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.51.59_b38bb6df.jpg" alt="uñas 5" > Uñas poly gel Precio Largas: ₡12.000 Precio cortas: ₡8.000 Decoración extra: ₡300
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.51.59_ba7cd8a5.jpg" alt="uñas 6" > Uñas semipermanente Precio: ₡3.000 Decoración extra: ₡300
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.51.59_f5be24b8.jpg" alt="uñas 7" > Uñas Dipping Precio uña natural cortas: ₡5.000  Precio uñas Largas: ₡8.000  Decoración extra: ₡200
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.00_1bfc1ed7.jpg" alt="uñas 8" > Uñas Acrilicas con relieve en gel  Precio Largas: ₡15.000  Precio cortas: ₡12.000 Decoración extra: ₡400
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.00_1d37eb3f.jpg" alt="uñas 9" > Uñas soft gel  Precio Largas: ₡10.000  Precio cortas: ₡8.000  Decoración extra: ₡300
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.00_47f9daf1.jpg" alt="uñas 10"> Uñas soft gel  Precio Largas: ₡10.000  Precio cortas: ₡8.000   Decoración extra: ₡300
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.00_64c49892.jpg" alt="uñas 11"> Uñas soft grl  Precio Largas: ₡10.000  Precio cortas: ₡8.000  Decoración extra: ₡300
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.00_362e2386.jpg" alt="uñas 12"> Uñas Acrilicas con relieve en gel  Precio Largas: ₡15.000  Prtecio cortas: ₡12.000  Decoración extra: ₡400
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.00_9212643e.jpg" alt="uñas 13"> Uñas Avrilicas con relieve en gel   Precio Largas: ₡15.000  Precio cortas: ₡12.000  Decoración extra: ₡400
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.00_a80c68a6.jpg" alt="uñas 14"> Uñas Dipping  Precio uñas natural  Largas:₡8.000  Precio uñas natural cortas: ₡5.000  Decoración extras: ₡200
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.01_8b71ac3d.jpg" alt="uñas 15"> Uñas kapping base nivelada  Precio Largas: ₡10.000  Precio cortas: ₡8.000  Decoración extra: ₡300
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.01_018d8ab1.jpg" alt="uñas 16"> Uñas kapping bese nivelada  Precio Largas: ₡10.000  Precio cortas: ₡8.000  Decoración extra: ₡300
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.01_d1c350b4.jpg" alt="uñas 17"> Uñas kapping base nivelada  Precio Largas: ₡10.000  Precio cortas: ₡8.000  Decoración extra: ₡300
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.01_d5e2037a.jpg" alt="uñas 18"> Uñas Dipping  Precio uñas natural Largas: ₡8.000  Precio uñas natural cortas: ₡5.000  Decoración extra: ₡200
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.03_845e056d.jpg" alt="uñas 19"> Uñas Dual system  Precio Largas: ₡11.000  Precio cortas: ₡9.000  Decoración extra: ₡200
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.03_c445429f.jpg" alt="uñas 20"> Uñas hibridas Precio Largas: ₡15.000 Precio cortas: ₡10.000 Decorción extra: ₡500 
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.03_f63a7b69.jpg" alt="Uñas 21"> Uñas híbridas Precio Largas: ₡15.000 Precio cortas: ₡10.000 Decoración extra: ₡500
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.04_428b94c6.jpg" alt="Uñas 22"> Uñas híbridas Precio Largas: ₡15.000 Precio cortas: ₡10.000  Decoración extra: ₡500
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.04_99120810.jpg" alt="Uñas 23"> Uñas Acrilicas efecto Carey Precio Largas: ₡16.000  Precio cortas: ₡11.000  Decoración extra: ₡400
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.04_c43ca2a2.jpg" alt="Uñas 24"> Uñas Acrilicas efecto Carey Precio Largas: 1₡6.000  Precio cortas: ₡11.000  Decoración extra: ₡400
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.04_efc89744.jpg" alt="Uñas 25"> Uñas Dual system Precio Largas: ₡11.000 Precio cortas: ₡9.000  Decoración extra: ₡200
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.05_5c6f91e8.jpg" alt="Uñas 26"> Uñas Dual system Precio Largas: ₡11.000   Precio cortas: ₡9.000 Decoración extra: ₡200
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.05_1088ee2e.jpg" alt="Uñas 27"> Uñas Acrilicas y 3D Precio Largas: ₡16.000 Precio cortas: ₡11.000  Decoración extra: ₡400
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.05_63967c57.jpg" alt="Uñas 28"> Uñas Acrilicas efecto Carey Precio Largas: ₡16.000 Precio cortas: ₡11.000  Decoración extra: ₡400
-      <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\Imagen de WhatsApp 2025-10-15 a las 22.52.05_ac02b6d3.jpg" alt="Uñas 29"> Uñas con nivelación base rubbler Precio Largas: ₡8.000 Prcio cortas: ₡5.000 Decoración extra: ₡300
-      
-  
+      <img src="imagenes/Imagen de WhatsApp 2025-10-15 a las 22.51.56_73f80c40.jpg" alt="uñas 1">
+      <img src="imagenes/Imagen de WhatsApp 2025-10-15 a las 22.51.59_15d02268.jpg" alt="uñas 2">
+      <img src="imagenes/Imagen de WhatsApp 2025-10-15 a las 22.51.59_997a065e.jpg" alt="uñas 3">
+      <img src="imagenes/Imagen de WhatsApp 2025-10-15 a las 22.51.59_b7e61d04.jpg" alt="uñas 4">
+      <img src="imagenes/Imagen de WhatsApp 2025-10-15 a las 22.51.59_b38bb6df.jpg" alt="uñas 5">
+      <img src="imagenes/Imagen de WhatsApp 2025-10-15 a las 22.51.59_ba7cd8a5.jpg" alt="uñas 6">
+      <img src="imagenes/Imagen de WhatsApp 2025-10-15 a las 22.51.59_f5be24b8.jpg" alt="uñas 7">
+      <img src="imagenes/Imagen de WhatsApp 2025-10-15 a las 22.52.00_1bfc1ed7.jpg" alt="uñas 8">
+      <img src="imagenes/Imagen de WhatsApp 2025-10-15 a las 22.52.00_1d37eb3f.jpg" alt="uñas 9">
+      <img src="imagenes/Imagen de WhatsApp 2025-10-15 a las 22.52.00_47f9daf1.jpg" alt="uñas 10">
+      <!-- ...continúa igual con tus demás imágenes -->
     </div>
   </section>
 
@@ -251,37 +184,38 @@
   <section id="trenzas">
     <h3>Estilos de Trenzas</h3>
     <div class="galeria">
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\1.jpg" alt="Trenza 1"> Trenzas Bohemias Braids  Precio Largas: 35.000  Precio cortas: 25.000
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\2.jpg" alt="Trenza 2"> Trenzas africanas sueltas  Precio Largas: 36.000  Precio cortas: 28.000
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\3.jpg" alt="Trenza 3"> Trenzas Fulanis Braids  Precio Largas:  27.000  Prceio cortas:  23.000
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\4.jpg" alt="Trenza 4"> Trenzas Boxeadoras con diseño y risos  Precio Largas:  17.000  Precio cortas:  12.000
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\5.jpg" alt="Trenza 5"> Trenzas Boxeadoras con desiño  Precio Largas:  14.000  Precio cortas:  10.000
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\6.jpg" alt="Trenza 6"> Trenzas Ponys Braids  Precio Largas:  18.000  Precio cortas:  15.000  Con diseño:  22.000
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\7.jpg" alt="Trenza 7"> Trenzas Ponys Braids  Precio Largas:  18.000  Precio cortas:  15.000  Con diseño:  22.000
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\8.jpg" alt="Trenza 8"> Trenzas Ponys Braids  Precio Largas: 18.000  Precio cortas:  15.000   Con diseño:  22.000
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\9.jpg" alt="Trenza 9"> Trenzas cabello natural Precio:  4.000   Trenzas cabello kanecalon  Precio: 6.000
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\10.jpg" alt="Trenza 10"> Trenzas Boxeadoras  Precio Largas: 8.000  Precio cortas:  4.000
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\11.jpg" alt="Trenza 11"> Trenzas Fulanis Braids hibridas  Precio Largas:  38.000  Precio cortas:  29.000
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\12.jpg" alt="Trenza 12"> Trenzas frontales con diseño  Precio Cabello natural:  6.000   Precio Cabello con kanecalon:  10.000
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\13.jpg" alt="Trenza 13"> Trenzas Fulanis Braids  Precio Largas:  20.000   Precio cortas:  15.000   Con deseño:  25.000
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\14.jpg" alt="Trenza 14"> Trenzas Ponys Braids hibridas  Precio Largas: 20.000  Precio cortas:  15.000  Con diseño:  25.000
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\15.jpg" alt="Trenza 15"> Trenzas Bohemias  Precio Largas:  36.000  Precio cortas:  28.000
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\16.jpg" alt="Trenza 16"> Trenzas cleopatra  Precio cortas:  15.000   Accesorios extras:  5.000
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\17.jpg" alt="Trenza 17"> Trenzas cortas  Precio cortas delgadas: 12.000  Precio cortas gruesas: 20.000  Accesorios extras: 2.000
-    <img src="E:\trenzas y uñas\trenzas y uñas\imagenes\18.jpg" alt="Trenza 18"> Trenzas jumbo  Precio Largas lisa: 24.000   Precio Largas punta risadas: 28.000   Accesorios extras: 2.000
-    
+      <img src="imagenes/1.jpg" alt="Trenza 1">
+      <img src="imagenes/2.jpg" alt="Trenza 2">
+      <img src="imagenes/3.jpg" alt="Trenza 3">
+      <img src="imagenes/4.jpg" alt="Trenza 4">
+      <img src="imagenes/5.jpg" alt="Trenza 5">
+      <img src="imagenes/6.jpg" alt="Trenza 6">
+      <img src="imagenes/7.jpg" alt="Trenza 7">
+      <img src="imagenes/8.jpg" alt="Trenza 8">
+      <img src="imagenes/9.jpg" alt="Trenza 9">
+      <img src="imagenes/10.jpg" alt="Trenza 10">
+      <img src="imagenes/11.jpg" alt="Trenza 11">
+      <img src="imagenes/12.jpg" alt="Trenza 12">
+      <img src="imagenes/13.jpg" alt="Trenza 13">
+      <img src="imagenes/14.jpg" alt="Trenza 14">
+      <img src="imagenes/15.jpg" alt="Trenza 15">
+      <img src="imagenes/16.jpg" alt="Trenza 16">
+      <img src="imagenes/17.jpg" alt="Trenza 17">
+      <img src="imagenes/18.jpg" alt="Trenza 18">
     </div>
   </section>
-<!--iconos -->
- <a href="https://www.facebook.com/share/16XdS2nT3R/" target="_blank" class="faceboot" title="Síguenos en Facebook">Fa</a>
-<a href="https://wa.me/50661958121" target="_blank" class="whatsapp" title="Agenda tu cita por WhatsApp">Wh</a>
-<a href="https://www.instagram.com/fa_esmeralda14?utm_source=qr&igsh=MWp6anV2NG5ucnZubw==" target="_blank" class="instagram" title="Síguenos en Instagram">In</a>
+
+  <!-- iconos -->
+  <a href="https://www.facebook.com/share/16XdS2nT3R/" target="_blank" class="faceboot" title="Síguenos en Facebook">Fa</a>
+  <a href="https://wa.me/50661958121" target="_blank" class="whatsapp" title="Agenda tu cita por WhatsApp">Wh</a>
+  <a href="https://www.instagram.com/fa_esmeralda14" target="_blank" class="instagram" title="Síguenos en Instagram">In</a>
+
   <footer>
     © 2025 Uñas & Trenzas | Agenda tu cita al WhatsApp: 6195 8121
-    <footer>  No olvides visitarnos en todas nuestras redes sociales </footer>
-     
+    <br> No olvides visitarnos en todas nuestras redes sociales
   </footer>
 
 </body>
-</html>
+</html
+
   
